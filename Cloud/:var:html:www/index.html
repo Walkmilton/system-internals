@@ -1,0 +1,28 @@
+<html>
+
+<body>
+
+
+<form action="/action.php" method="post">
+Enter IP Address to scan:
+<input type="text" name="Scan" />
+<br>
+Type of Scan:
+<select name="scanOption">
+<option value="TCP">TCP</option> 
+<option value="UDP">UDP</option>
+<option value="Ports">All Ports</option>
+<option value="All">Version & OS detection</option>
+</select>
+<br>
+Verbose output:
+<input type="checkbox" name="verbose" value="Yes"/>
+<br>
+<input type="submit" name="btnSendForm" value="Submit" />
+</form>
+
+<a href='output.html'>Click here to see restuls from latest scan</a>
+
+</body>
+
+</html>
